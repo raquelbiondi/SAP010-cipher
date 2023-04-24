@@ -15,7 +15,7 @@ h2 {
 .msg {
     background-color: : darkcyan;
     color: midnightblue;
-    border: 2px solid white;
+    border: 2px dotted white;
     width: 300px;
     height: 300px;
     margin: 10px;
