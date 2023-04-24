@@ -1,3 +1,4 @@
-import cipher from './cipher.js';
+import cipher from "./cipher.js"
 
-console.log(cipher);
+document.getElementById("encodebutton").addEventListener("click", function () {
+  const encodeWord = document.getElementById("encodetext").value;

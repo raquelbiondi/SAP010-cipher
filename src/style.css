@@ -1,0 +1,23 @@
+body {
+    background-color: lightblue;
+}
+
+h1 {
+    color: midnightblue;
+    text-shadow: 0cqmin;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    color: midnightblue;
+    opacity: 0.6;
+}
+.msg {
+    background-color: : darkcyan;
+    color: midnightblue;
+    border: 2px solid white;
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    padding: 10px;
+  }
