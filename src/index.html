@@ -2,18 +2,51 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Caesar Cipher</title>
-    <img src="img/multiverso.jpg">
-    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cifra</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-      <h1>"HELLO" FROM ANOTHER WORLD</h1>
-      <h2>Conte aqui sobre o seu mundo para alguém no multiverso:</h2>
-        <div class="msg">
-        <label>Escreva aqui sua mensagem secreta:</label><br><br>
-        <textarea placeholder="Digite sua mensagem"></textarea><br>
-        <button type="submit">Criptografar</button>
-        </div>
+    <style>
+      body{
+        background-image: linear-gradient(to bottom, lightblue, lightslategray);
+      }
+    </style>
+
+    <header class="top">
+      <h1>CONFIDENTIAL</h1>
+      <h2>Este é um portal de comunicação secreta entre mundos</h2>
+      <h4>CRIPTOGRAFE SUAS MENSAGENS🔐</h4>
+    </header>
+    <br><br><br>
+
+    <main>
+      <div class="texto">
+        <textarea id="enter" placeholder="O que gostaria de contar sobre o seu mundo? "></textarea>
+      </div><br>
+      <button class="botao" id="botao-codificar">Criptografar</button><br><br>
+
+      <div id="chave">
+        <label for="chave-secreta">Chave secreta (nº):</label>
+        <input type="number" id="chave-secreta" min="1" max="26"/>
+      </div><br>
+
+      <div class="texto">
+        <textarea id="exit" placeholder="Decifre a mensagem"></textarea>
+      </div>
+        <button class="botao" id="botao-descodificar">Descriptografar</button>
+      </main>
+
+     
+          
+          
+      </div>
+    </div>
+
+
+    <footer>
+      <p>Para mais informações, entre em contato: raquelsylos@gmail.com </p>
+    </footer>
     
       <script type="module" src="index.js"></script>
       <script type="module" src="cipher.js"></script>
