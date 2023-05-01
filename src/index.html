@@ -1,59 +1,53 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cifra</title>
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <style>
-      body{
-        background-image: url('img/multiverso3.jpg');
-        background-repeat: no-repeat;
-        background-size: 100% 100%;
-      }
-    </style>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>caesar cipher</title>
+  <link href="style.css" rel="stylesheet">
+</head>
 
-    <div id="top">
-    <header>
-      <h1>CONEXÃO MULTIVERSO</h1>
-      <h2><b>-|</b> Este é um portal de comunicação entre mundos <b>|-</b></h2>
-      <h4>CRIPTOGRAFE SUAS MENSAGENS🔐</h4>
+<body>  
+   <header>
+        <nav>
+          <img src="img/Spiral.png" alt="Send Message" align=left>
+        <div class="Menu">
+          <details><summary>►► Sobre ►►</summary>
+          <p>Proposta pelo físico Hugh Everett em 1957, a interpretação de muitos-mundos prevê a presença de linhas de tempo ramificadas ou realidades alternativas nas quais nossas decisões se desenrolam de maneira diferente, às vezes produzindo resultados totalmente distintos.</p></details><br>
+          <a href="#footer">►► Contato ►►</a>
+        </div>
+          <img src="img/Spiral2.png" alt="Receive Message" align=right>
+      </nav>
     </header>
+  
+    <div class="Intro">
+          <h1>Este é um portal de comunicação entre multiversos</h1>
+          <h2>Criptografe uma mensagem para uma realidade alternativa:</h2>
+          <br>
     </div>
-    <br><br><br>
-
+  
     <main>
-      <div class="texto">
-        <textarea id="enter" placeholder="O que gostaria de contar sobre o seu mundo? "></textarea>
-      </div><br>
-      <button class="botao" id="botao-codificar">Criptografar</button><br><br>
-
-      <div id="chave">
-        <label for="chave-secreta">Chave secreta (nº):</label>
-        <input type="number" id="chave-secreta" min="1" max="26"/>
-      </div><br>
-
-      <div class="texto">
-        <textarea id="exit" placeholder="Decifre a mensagem"></textarea>
+      <div id="key">
+        <label for="secret-key"><b> Chave secreta (nº):</b></label>
+        <input type="number" id="secret-key" min="1" max="26"/>
       </div>
-        <button class="botao" id="botao-descodificar">Descriptografar</button>
-      </main>
-
-     
-          
-          
+        <p id="subtitle"> Para descriptografar use essa mesma chave.</p>
+      
+      <div id="container">
+        <textarea id="entertext" placeholder="Escreva aqui sua mensagem confidencial para outro mundo 🔐"></textarea>
+        <textarea id="textexit" readonly></textarea>
+        </div>
+      <div id="buttons">
+        <button class="button" id="cript">Criptografar</button>
+        <button class="button" id="descript">Descriptografar</button>
       </div>
-    </div>
+    </main>
+    <br><br>
 
-
-    <footer>
-      <p>Raquel Biondi de Sylos</p>
-        <p>Contact: <a href="raquelsylos@gmail.com">raquelsylos@gmail.com</a>.</p>
+  <footer id="footer">
+      <p>Todos os direitos reservados - github.com/raquelbiondi | LABORATORIA 2023.</p>
     </footer>
-    
-      <script type="module" src="index.js"></script>
-      <script type="module" src="cipher.js"></script>
-  </body>
+  
+  <script src="index.js" type="module"></script>
+</body>
 </html>
