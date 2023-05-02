@@ -30,13 +30,21 @@ Caso o(a) usuário(a) esqueça de preencher um dos campos, ele(a) será alertado
 
 ✍ Passo a passo para utilizar o site ✍
 
+
+![print site](https://user-images.githubusercontent.com/128406723/235735799-88c2d545-01d7-4e4a-a218-b7c2fa6240e7.png)
+
 I - Escolha o número da chave secreta no campo correspondente.
-II - Escreva uma mensagem no espaço em branco (à esquerda).
-III- Clique no botão para Criptografar essa mensagem, ela deve aparecer criptografada nesse mesmo campo onde foi escrita.
-IV- Por último clique no botão Descriptografar e a mensagem secreta será revelada no campo das estrelas (à direita).
+
+II - Escreva uma mensagem no espaço em branco (à esquerda).	
+
+III- Clique no botão para Criptografar essa mensagem, ela deve aparecer criptografada nesse mesmo campo onde foi escrita.	
+
+IV- Por último clique no botão Descriptografar e a mensagem secreta será revelada no campo das estrelas (à direita).	
 
 🧠 Ferramentas utilizadas 🧠
 
 I - VSCode
+
 II - HTML/CSS/JavaScript
+
 III - GitBash e GitHub
