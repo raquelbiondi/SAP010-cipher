@@ -1,0 +1,150 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-image: url('img/stars.png');
+  background-repeat: no-repeat;
+  background-size: 150%;
+  text-align: center;
+}
+
+img{
+  max-width:250px;
+  max-height:200px;
+  padding-top: 5px;
+  width: auto;
+  height: auto;
+}
+
+nav{
+  padding: 10px 10px;
+  height: 150px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 31px;
+}
+
+.Menu{
+  padding: 13px;
+  box-shadow: 4px 4px 25px 0px rgb(0 0 0/75%);
+  border-bottom-left-radius: 31px;
+  border-top-right-radius: 31px;
+  width: 900px;
+  height: 31px;
+  display: flex;
+}
+
+summary{
+  color: #8CA3C2;
+  text-decoration: none;
+  transition: 0.4s;
+  letter-spacing: 3px;
+  margin-left: 70px;
+}
+a{
+  text-decoration: none;
+  color:#8CA3c2;
+}
+.Menu details p{
+  font-size: 14px;
+  align-content: center;
+  color: whitesmoke;
+  opacity: 0.7;
+  margin: 2px;
+}
+
+h1, h2{
+  margin: 20px 10px;
+  color: whitesmoke;
+  font-family:monospace;
+}
+
+#entertext {
+    height: 293px;
+    width: 352px;
+    margin: 10px;
+    resize: none;
+    padding: 15px;
+    border: none;
+    border-radius: 31px 0px 0px 31px;
+    margin-right: -16px;
+    font-family: "Roboto Mono", monospace;
+    font-size: 18px;
+}
+
+::placeholder {
+    color: black;
+    font-size: 15px;
+    opacity: 50%;
+  }  
+
+#textexit {
+    height: 293px;
+    width: 352px;
+    margin: 10px;
+    resize: none;
+    padding: 15px;
+    border: none;
+    border-radius: 0px 31px 31px 0px;
+    opacity: 30%;
+    font-family: "Roboto Mono", monospace;
+    font-size: 18px;
+}
+
+input{
+  font-size: 20px;
+  color: #4d607a;
+}
+
+#key {
+  margin-right: 37%;
+  color: #667892;
+  font-weight:bold;
+  font-size: 15px;
+}
+
+#secret-key {
+  margin-top: 10px;
+  height: 35px;
+  width: 35px;
+  border-radius: 5px;
+  border: dotted 2px #667892;
+  padding: 3px;
+  font-family: "Roboto Mono", monospace;
+  font-size:20px;
+}
+
+#subtitle{
+  padding-top: 3px;
+  font-style: italic;
+  margin-right: 29%;
+  color: whitesmoke;
+}
+
+#buttons{
+    margin-top: -7px;
+    margin-left: 31%;
+}
+
+.button{
+  border-radius: 10px;
+  width: 150px;
+  height: 35px;
+  background-color: black;
+  color: whitesmoke;  
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#footer{
+  background-color: #032136;
+  box-shadow: 4px 4px 25px 0px rgb(0 0 0/75%);
+  padding-top: 30px;
+  color: white;
+  font-size: 20px;
+  height: 40px;
+}
